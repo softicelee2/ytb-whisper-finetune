@@ -149,8 +149,6 @@ model.generation_config.task = "transcribe"
 model.generation_config.forced_decoder_ids = None
 model.config.suppress_tokens = []
 
-#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
-
 
 training_args = Seq2SeqTrainingArguments(
     output_dir="example-model",  # change to a repo name of your choice
